@@ -1,0 +1,14 @@
+[Inputs]
+barreira
+=Matriculas[23:0]=
+=tempo[6:0]=
+=dias[2:0]=
+[Outputs]
+semana
+=diainicial[2:0]=
+=contagem[3:0]=
+=matriculaanterior[23:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Contagemdeviaturas
+

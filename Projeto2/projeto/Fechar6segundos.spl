@@ -1,0 +1,9 @@
+[Inputs]
+=Terminar[6:0]=
+=Tempo[6:0]=
+[Outputs]
+barreira1
+[BiDir]
+[ATTRIBUTES]
+VeriModel Fechar6segundos
+

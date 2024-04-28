@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+Termino instance_name (
+    .Tempo(Tempo), 
+    .valido(valido), 
+    .Termino(Termino)
+    );
+
+

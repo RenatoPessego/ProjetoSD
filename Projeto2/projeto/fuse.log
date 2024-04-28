@@ -1,0 +1,49 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/Desktop/ProjetoFase2Final/Resultado_Resultado_sch_tb_isim_beh.exe -prj /home/ise/Desktop/ProjetoFase2Final/Resultado_Resultado_sch_tb_beh.prj work.Resultado_Resultado_sch_tb work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/ise/Desktop/ProjetoFase2Final/Separador.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/ProjetoFase2Final/Ultimasduasmatriculasinv.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/ProjetoFase2Final/Termino.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/ProjetoFase2Final/Somador.vf" into library work
+Analyzing Verilog file "/home/ise/Desktop/ProjetoFase2Final/Matriculas.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/ProjetoFase2Final/FormarMatriculaCompleta.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/ProjetoFase2Final/Fechar6segundos.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/ProjetoFase2Final/DiasdeSemana.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/ProjetoFase2Final/Count.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/ProjetoFase2Final/Contagemdeviaturas.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/ProjetoFase2Final/Clock.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/ProjetoFase2Final/Resultado.vf" into library work
+Analyzing Verilog file "/home/ise/Desktop/ProjetoFase2Final/Teste.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95060 KB
+Fuse CPU Usage: 590 ms
+Compiling module Matriculas
+Compiling module Separador
+Compiling module XOR2
+Compiling module INV
+Compiling module AND2
+Compiling module AND3
+Compiling module OR3
+Compiling module Somador_MUSER_Resultado
+Compiling module DiasdeSemana
+Compiling module OR2
+Compiling module FormarMatriculaCompleta
+Compiling module Clock
+Compiling module Count
+Compiling module Termino
+Compiling module Fechar6segundos
+Compiling module Ultimasduasmatriculasinv
+Compiling module Contagemdeviaturas
+Compiling module Resultado
+Compiling module Resultado_Resultado_sch_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 20 Verilog Units
+Built simulation executable /home/ise/Desktop/ProjetoFase2Final/Resultado_Resultado_sch_tb_isim_beh.exe
+Fuse Memory Usage: 98416 KB
+Fuse CPU Usage: 630 ms
+GCC CPU Usage: 720 ms

@@ -1,0 +1,4 @@
+verilog isim_temp "Separador.v"
+verilog isim_temp "Somador.vf"
+verilog isim_temp "Testarsomador.v"
+verilog isim_temp "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

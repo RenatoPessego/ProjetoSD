@@ -1,0 +1,9 @@
+[Inputs]
+valido
+=Tempo[6:0]=
+[Outputs]
+=Termino[6:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Termino
+
