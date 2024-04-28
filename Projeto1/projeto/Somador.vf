@@ -1,0 +1,96 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Somador.vf
+// /___/   /\     Timestamp : 11/05/2022 01:25:19
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog /home/ise/Documents/ProjetoSD/Somador.vf -w /home/ise/Documents/ProjetoSD/Somador.sch
+//Design Name: Somador
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Somador(m0, 
+               m1, 
+               m2, 
+               m3, 
+               m4, 
+               m5, 
+               impar);
+
+    input [3:0] m0;
+    input [3:0] m1;
+    input [3:0] m2;
+    input [3:0] m3;
+    input [3:0] m4;
+    input [3:0] m5;
+   output impar;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_6;
+   wire XLXN_14;
+   wire XLXN_16;
+   wire XLXN_17;
+   wire XLXN_18;
+   wire XLXN_19;
+   wire XLXN_20;
+   wire XLXN_21;
+   wire XLXN_22;
+   wire XLXN_23;
+   
+   Separador  XLXI_2 (.m0(m0[3:0]), 
+                     .m1(m1[3:0]), 
+                     .m2(m2[3:0]), 
+                     .m3(m3[3:0]), 
+                     .m4(m4[3:0]), 
+                     .m5(m5[3:0]), 
+                     .s0(XLXN_1), 
+                     .s1(XLXN_2), 
+                     .s2(XLXN_3), 
+                     .s3(XLXN_4), 
+                     .s4(XLXN_5), 
+                     .s5(XLXN_6));
+   XOR2  XLXI_3 (.I0(XLXN_2), 
+                .I1(XLXN_1), 
+                .O(XLXN_14));
+   XOR2  XLXI_4 (.I0(XLXN_4), 
+                .I1(XLXN_3), 
+                .O(XLXN_19));
+   XOR2  XLXI_5 (.I0(XLXN_6), 
+                .I1(XLXN_5), 
+                .O(XLXN_16));
+   INV  XLXI_6 (.I(XLXN_14), 
+               .O(XLXN_18));
+   INV  XLXI_8 (.I(XLXN_19), 
+               .O(XLXN_17));
+   INV  XLXI_9 (.I(XLXN_16), 
+               .O(XLXN_20));
+   AND2  XLXI_10 (.I0(XLXN_16), 
+                 .I1(XLXN_14), 
+                 .O(XLXN_21));
+   AND2  XLXI_11 (.I0(XLXN_16), 
+                 .I1(XLXN_17), 
+                 .O(XLXN_22));
+   AND3  XLXI_12 (.I0(XLXN_20), 
+                 .I1(XLXN_19), 
+                 .I2(XLXN_18), 
+                 .O(XLXN_23));
+   OR3  XLXI_13 (.I0(XLXN_23), 
+                .I1(XLXN_22), 
+                .I2(XLXN_21), 
+                .O(impar));
+endmodule

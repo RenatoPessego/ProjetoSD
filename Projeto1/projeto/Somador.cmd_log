@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan6 -refsym Somador /home/ise/Documents/ProjetoSD/Somador.sch /home/ise/Documents/ProjetoSD/Somador.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Somador /home/ise/Documents/ProjetoSD/Somador.sch /home/ise/Documents/ProjetoSD/Somador.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Somador /home/ise/Documents/ProjetoSD/Somador.sch /home/ise/Documents/ProjetoSD/Somador.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Somador /home/ise/Documents/ProjetoSD/Somador.sch /home/ise/Documents/ProjetoSD/Somador.sym 

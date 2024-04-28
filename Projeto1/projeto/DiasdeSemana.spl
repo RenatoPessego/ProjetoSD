@@ -1,0 +1,9 @@
+[Inputs]
+=d[2:0]=
+[Outputs]
+p
+dom
+[BiDir]
+[ATTRIBUTES]
+VeriModel DiasdeSemana
+

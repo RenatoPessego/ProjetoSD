@@ -1,0 +1,7 @@
+verilog work "Separador.v"
+verilog work "Somador.vf"
+verilog work "Matriculas.v"
+verilog work "DiasdeSemana.v"
+verilog work "Resultado.vf"
+verilog work "teste.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
