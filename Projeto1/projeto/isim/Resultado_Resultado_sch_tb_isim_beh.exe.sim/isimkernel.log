@@ -1,0 +1,10 @@
+Command line:
+   Resultado_Resultado_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  39091
+
+Sat Nov  5 01:30:08 2022
+
+
+ Elaboration Time: 0.02 sec
